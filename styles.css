@@ -70,7 +70,10 @@ input:focus {
 
 .navtxt {
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
+  color: #000;
+  /* font-weight: 501; */
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .btnsu {
@@ -124,7 +127,19 @@ input:focus {
 .header-title h1 {
   font-family: 'Ubuntu', sans-serif;
   margin-bottom: 20px;
-  font-weight: 800;
+  /* font-weight: 800; */
+  font-weight: bold;
+  color: black;
+}
+
+.title_p {
+    font-size: 16px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #000;
 }
 
 .talktous {
@@ -198,28 +213,66 @@ input:focus {
 
 /* OUR PRODUCTS */
 
+.one_stop {
+  background-color: #fffef2;
+}
+
+
 .ourProducts {
   margin-top: 40px;
   background-color: #fffef2;
 }
 
-.ourProducts h1 {
+/* .ourProducts h1 {
   margin-left: 45%;
   margin-bottom: 60px;
   font-weight: bolder;
+} */
+
+.our_h3 {
+  text-align: center;
+  font-size: 29px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1em;
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.our_h4 {
+  width: 300px;
+  margin-right: 70px;
+  font-size: 24px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-family: "Ubuntu", sans-serif;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 180px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .opContainer {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  margin-left: 20%;
-  gap: 40px;
+  /* margin-left: 20%;
+  gap: 40px; */
 }
 
 .opRow {
   display: flex;
   gap: 80px;
+  align-items: center;
+  margin: 14px 0;
 }
 
 .opLeft {
@@ -227,14 +280,15 @@ input:focus {
   width: 350px;
 }
 
-.opLeft h4 {
+/* .opLeft h4 {
   margin-top: 40px;
   font-weight: bold;
   font-size: 30px;
-}
+} */
 
 .opRight {
   display: flex;
+  margin-left: 95px;
 }
 
 .opCard {
@@ -280,6 +334,8 @@ input:focus {
   margin: 20px;
 }
 
+
+
 .carousel {
   width: 100%;
   overflow: hidden;
@@ -289,7 +345,7 @@ input:focus {
 
 .carousel-images {
   display: flex;
-  animation: carousel-animation 10s linear infinite;
+  animation: carousel-animation 14s linear infinite;
   gap: 5%;
 }
 
@@ -297,15 +353,15 @@ input:focus {
   0% {
     transform: translateX(0);
   }
-
   100% {
     transform: translateX(-100%);
   }
 }
 
+
 .carousel-images img {
-  width: 100%;
-  height: auto;
+  width: 146px;
+  height: 73px;
 }
 
 /* end of trusted by carousel section*/
@@ -318,7 +374,7 @@ input:focus {
 
 .getStartSection {
   margin-top: 100px;
-  height: 180px;
+  height: 130px;
   background-color: #fbdc00;
   display: flex;
   flex-direction: row;
@@ -328,19 +384,24 @@ input:focus {
 
 .getStartSection h3 {
   font-weight: bolder;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.2;
+  margin-top: 21px;
 }
 
 .getStartSection button {
-  border: 1px solid var(--color-primary);
-  font-family: var(--font-family-heading);
-  color: #fff;
+  border: 1px solid #ee3425;
+  font-family: "PT Sans",sans-serif;
+  color: #fff!important;
   background-color: #ee3425;
   border-radius: 4px;
-  height: 50px;
-  width: 150px;
+  height: 35px;
+  width: 120px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
 }
 
 /* end of get started section */
@@ -357,8 +418,19 @@ input:focus {
   gap: 40px;
 }
 
-.laptopClass h3 {
-  font-size: 40px;
+.lappy_h3 {
+  text-align: center;
+  font-size: 29px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1em;
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-weight: bold;
 }
 
@@ -368,22 +440,33 @@ input:focus {
 }
 
 .laptopButtons button {
-  width: 250px;
-  height: 50px;
-  /* padding: 20px; */
-  margin: 0 20px;
+  width: 210px;
+  height: 44px;
+  
+  margin-top: -50px;
+  
   font-weight: 700;
+  font-size: 13.5px;
   color: #000 !important;
+  border: 2px solid white;
   border-radius: 30px;
   text-align: center;
 }
 
+.laptopImage {
+  height: 100px;
+  width: 100px
+}
+
 #leftButton {
+  margin-right: 20px;
   background-color: #fbdc00;
+  margin-left: 15px;
 }
 
 #rightButton {
   background-color: rgb(223, 220, 220);
+  margin-left: -45px;
 }
 
 /* <!-- how it works section ends here--> */
@@ -391,34 +474,57 @@ input:focus {
 
 /* <!-- industries served section --> */
 
+
+
 #industriesServed {
   display: flex;
   flex-direction: column;
   gap: 50px;
   align-items: center;
+  background: #fffef3;
 }
 
 #industriesServed h3 {
-  font-weight: bold;
-  font-size: 40px;
+    text-align: center;
+    font-size: 29px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1em;
+    display: block;
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
-#industriesImages {
+.industriesImages {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
-  gap: 120px;
+  align-content: space-between;
+  /* justify-content: space-between; */
+  gap: 75px;
+  margin-top: -35px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
 }
 
-#industriesImages p {
-  font-weight: bold;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 5px;
+.industriesImages p {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
 }
 
-#industriesImages img {
-  height: 120px;
-  width: 120px;
+.industriesImages img {
+  height: 100px;
+  width: 100px;
 }
 
 /* <!-- industries served section --> */
@@ -432,7 +538,44 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 300px
+  gap: 300px;
+  background: #fffef2;
+}
+
+.gs2_image_div {
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end;
+}
+
+.gSContainer2 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.gs2_image {
+    display: block;
+    margin-right: 285px;
+    object-fit: contain;
+    animation-name: styles_gs;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes styles_gs {
+0% {
+  transform: translateY(0);
+}
+50% {
+  transform: translateY(-10px);
+}
+100% {
+  transform: translateY(0);
+}
 }
 
 .gSLeft {
@@ -442,10 +585,53 @@ input:focus {
   gap: 10px
 }
 
+.gSLeft2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+  margin-left: 229px;
+}
+
+.GS_P1 {
+  font-size: 16px;
+  color: #000;
+  margin-top: -40px;
+}
+
+.GS_P2 {
+  font-size: 12px;
+  color: #000;
+  margin-top: -15px;
+}
+
+.gSLeft2 h4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+
 .gSLeft h4 {
   font-size: 40px;
   font-weight: bold;
   color: #000;
+}
+
+.gSLeft2 button {
+    display: inline-block;
+    height: 40px;
+    padding: 8px 42px;
+    margin-top: 20px;
+    font-size: 14px;
+    height: 38px;
+    width: 159px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 8px;
+    border: #fff;
 }
 
 .gSLeft button {
@@ -459,19 +645,92 @@ input:focus {
   font-weight: bold;
 }
 
+/* 
+.one_stop_image {
+    display: block;
+    width: 500px;
+    object-fit: contain;
+    height: 100%;
+    margin-right: 100px;
+} */
+
+.one_stop_h4 {
+  margin-top: 80px;
+  margin-left: 160px;
+}
+
+.one_stop_p {
+  margin-top: -38px;
+  margin-left: 160px;
+  font-size: 14px;
+}
+
 
 /* <!-- stats section --> */
 .statsContainer {
   margin-top: 70px;
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 180px;
   font-weight: bold;
   font-size: 20px;
 }
 
+.stats_h {
+  font-size: 16px;
+  margin-bottom: 0px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: -18px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+}
+
+.stats_h1 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: -6px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+}
+
+.stats_h2 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: -22px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+}
+
+.stats_h3 {
+  font-size: 16px;
+  margin-bottom: 0px;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 5px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  color: #000;
+}
+
 .counter {
   color: #EE3425;
+  margin-bottom: -13px;
   font-size: 40px;
   font-weight: bold;
 }
@@ -545,6 +804,24 @@ input:focus {
   align-items: center;
   justify-content: space-around;
   font-family: 'Ubuntu';
+  margin-top: -90px;
+}
+
+.txtVid p {
+  margin-left: 15px;
+}
+
+.maintxt h3 {
+  text-align: center;
+  font-size: 29px;
+  line-height: 1.2;
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-top: 130px;
+  margin-left: 0px;
+
 }
 
 .maintxt>* {
@@ -558,11 +835,17 @@ input:focus {
   border-radius: 4px;
   font-family: 'Ubuntu';
   color: #030003;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
   background: #fbdc00;
   padding: 5px 16px 5px 16px;
   text-decoration: none;
   cursor: pointer;
+  border: #ee3425;
+  margin-top: 115px;
+  margin-left: 350px;
+  height: 35px;
+  width: 130px;
 }
 
 #blog-cards {
@@ -575,21 +858,34 @@ input:focus {
 
 .pricing-h3 {
   text-align: center;
-  font-weight: 800;
+  font-size: 29px;
+  font-weight: bold;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
+  margin-top: -30px;
 }
 
 .cimg {
   width: 100%;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   height: 200px;
   object-fit: cover;
 }
 
+#card_content {
+  border: #fff;
+  box-shadow: 0 3px 6px hsla(0,0%,79%,.5);
+}
+
 .card-abt {
   padding: 1rem 1rem 0.25rem;
+}
+
+.card-abt h4 {
+  color: red;
+  font-weight: 525;
+  font-size: 16px;
 }
 
 .card-head {
@@ -606,6 +902,15 @@ input:focus {
 .card-p {
   font-family: 'Ubuntu';
   padding: 0.15rem 1rem 1rem;
+  color: black;
+  font-size: 16px;
+}
+
+#card_h4 {
+  color: red;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 14px;
 }
 
 .card-foot {
@@ -617,6 +922,8 @@ input:focus {
 
 .date>h4 {
   color: gray;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .viewall {
@@ -628,14 +935,18 @@ input:focus {
   -webkit-border-radius: 4;
   -moz-border-radius: 4;
   border-radius: 4px;
-  font-family: 'Ubuntu';
+  font-family: sans-serif;
   color: white;
-  font-size: 16px;
+  font-size: 12.5px;
+  font-weight: 600;
   background: #ee3425;
   padding: 5px 16px 5px 16px;
   text-decoration: none;
   cursor: pointer;
   box-shadow: none;
+  border: #fff;
+  width: 130px;
+  height: 40px;
 }
 
 
@@ -751,7 +1062,7 @@ input:focus {
   border-bottom-right-radius: 10px;
 }
 
-.newsletter_container  {
+.newsletter_container {
   font-size: 1em;
   border-radius: 4px;
   outline: none;
