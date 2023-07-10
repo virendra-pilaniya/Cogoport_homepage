@@ -978,7 +978,7 @@ input:focus {
 }
 
 .v3 h3 {
-  font-size: 28px;
+  font-size: 29px;
   line-height: 1.2;
   font-family: "Ubuntu", sans-serif;
   color: #000;
@@ -992,6 +992,9 @@ input:focus {
 
 .newsletter_subheading {
   font-size: 16px;
+  font-family: sans-serif;
+  margin-top: -27px;
+  color: #000;
 }
 
 .newsletter_input {
@@ -1058,16 +1061,17 @@ input:focus {
   text-decoration: none;
   background: #ee3425;
   border-radius: 0;
+  border: red;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
 .newsletter_container {
   font-size: 1em;
-  border-radius: 4px;
+  border-radius: 1px solid red;
   outline: none;
   transition: color 0.1s linear, background-color 0.1s linear,
-    border-color 0.1s linear;
+  border-color 0.1s linear;
   transition-duration: 0.1s, 0.1s, 0.1s;
   transition-timing-function: linear, linear, linear;
   transition-delay: 0s, 0s, 0s;
@@ -1081,6 +1085,7 @@ input:focus {
   display: flex;
   font-family: "PT Sans", sans-serif;
   height: 28px;
+  color: #fff;
   justify-content: center;
   line-height: 1.2;
   padding: 2px 4px;
@@ -1137,6 +1142,12 @@ input:focus {
   box-sizing: border-box;
 }
 
+.Footer_div_style_SC {
+  display: flex;
+  flex-direction: column;
+  margin-top: -14px;
+}
+
 .Footer_div_style {
   display: flex;
   flex-direction: column;
@@ -1162,7 +1173,7 @@ a:-webkit-any-link {
 .Footer_div_style2 {
   flex-direction: row;
   align-items: center;
-  margin: 8px 0;
+  margin: 1px 0;
 }
 
 .List_items h1,
@@ -1185,6 +1196,7 @@ h6 {
   font-family: "Ubuntu", sans-serif;
   color: #000;
   font-size: 15px;
+  font-weight: bold;
 }
 
 .List_items h4 {
@@ -1230,9 +1242,10 @@ element.style {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  color: black !important;
   margin-top: 20px;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bolder;
   line-height: 1.5;
   text-decoration: underline;
 }
@@ -1261,6 +1274,7 @@ element.style {
   width: fit-content;
   line-height: 2rem;
   color: #000;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -1301,6 +1315,7 @@ element.style {
 .Bottom_div3 {
   display: flex;
   align-items: center;
+  margin-left: 496.5px;
 }
 
 .Last_footer ul {
@@ -1365,7 +1380,7 @@ element.style {
 }
 
 .Bottom_img {
-  margin-bottom: 6px;
+  margin-bottom: 0px;
   font-size: 15px;
   font-weight: 700;
   color: #ee3425;
