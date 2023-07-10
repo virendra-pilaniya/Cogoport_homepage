@@ -20,7 +20,7 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
+  width: 98.89vw;
 }
 
 .icon {
@@ -654,15 +654,22 @@ input:focus {
     margin-right: 100px;
 } */
 
+.one_stop_image2 {
+  width: 500px;
+  height: 292.96px;
+  /* margin-right: 100px; */
+}
+
 .one_stop_h4 {
   margin-top: 80px;
-  margin-left: 160px;
+  margin-left: 120px;
 }
 
 .one_stop_p {
   margin-top: -38px;
-  margin-left: 160px;
+  margin-left: 120px;
   font-size: 14px;
+  font-weight: 470;
 }
 
 
@@ -741,11 +748,11 @@ input:focus {
 
 
 /* video+blogs part */
-
+/* 
 .vidouter {
   padding: 0;
   margin: 0;
-}
+} */
 
 .vidouter h3 {
   font-size: 28px;
