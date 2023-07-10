@@ -298,6 +298,7 @@ input:focus {
   font-family: var(--font-family-heading);
   color: var(--font-color-heading);
   line-height: 1.3em;
+  cursor: pointer;
 }
 
 
@@ -399,64 +400,131 @@ input:focus {
 
 /* how it works section */
 
-.laptopClass {
-  margin-top: 100px;
-  margin-bottom: 100px;
+.Laptop{
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.Laptop_child{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
 }
 
-.lappy_h3 {
-  text-align: center;
-  font-size: 29px;
-  line-height: 1.2;
-  margin-top: 0;
-  margin-bottom: 1em;
-  display: block;
-  font-family: "Ubuntu", sans-serif;
-  color: black;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+.Laptop_child > h3{
+  font-family: 'Ubuntu',sans-serif;
   font-weight: bold;
+  font-size: 28px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+.buttons_normal {
+  width: 200px;
+  padding: 10px;
+  margin: 0 20px;
+  color: #000;
+  border-radius: 20px;
+  background: #e5dfdf;
+  border: grey;
 }
 
-.laptopButtons {
-  display: flex;
-  gap: 40px;
-}
-
-.laptopButtons button {
-  width: 210px;
-  height: 44px;
-
-  margin-top: -50px;
-
-  font-weight: 700;
-  font-size: 13.5px;
-  color: #000 !important;
-  border: 2px solid white;
-  border-radius: 30px;
-  text-align: center;
-}
-
-.laptopImage {
-  height: 100px;
-  width: 100px
-}
-
-#leftButton {
-  margin-right: 20px;
+.buttons_yellow{
+  width: 200px;
+  padding: 10px;
+  margin: 0 20px;
+  color: #000;
+  border-radius: 20px;
   background-color: #fbdc00;
-  margin-left: 15px;
+  border: #fbdc00;
 }
 
-#rightButton {
-  background-color: rgb(223, 220, 220);
-  margin-left: -45px;
+.cursor{
+  cursor: pointer;
+  font-family: "PT Sans",sans-serif;
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Last_lappy_div{
+  align-self: flex-start;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.stages{
+  width: 300px;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(169,188,218,.65);
+  margin-bottom: 120px;
+}
+
+.stage_labels {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.stages > p{
+  font-weight: 600;
+  color: #ee3425;
+}
+
+.laptop_span{
+  display: flex;
+}
+
+.laptop_para {
+  padding-bottom: 5px;
+  padding-left: 8px;
+  margin: 0;
+}
+
+.discover {
+  display: flex;
+  align-items: center;
+  padding: 0 0 10px;
+  margin: 0;
+}
+
+.top_left_arrow{
+  top: 184px;
+  left: 300px;
+  position: absolute;
+}
+
+.bottom_left_arrow{
+  bottom: 196px;
+  left: 300px;
+  position: absolute;
+}
+
+.Laptop_style2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.homepage_pic{
+  width: 560px;
+  height: 320px;
+}
+
+.top_right_arrow{
+  top: 184px;
+  right: 300px;
+  position: absolute;
+}
+
+.bottom_right_arrow{
+  right: 300px;
+  bottom: 196px;
+  position: absolute;
 }
 
 /* <!-- how it works section ends here--> */
