@@ -14,7 +14,7 @@ input:focus {
   outline: none;
 }
 
-.navtop {
+.Navbar_Top {
   padding: 8px 16px 8px 32px;
   background-color: #fbdc00;
   display: flex;
@@ -85,7 +85,6 @@ input:focus {
   color: #FFFFFF;
   font-family: "PT Sans";
   min-width: 72px;
-  /* font-size: 18px; */
   font-weight: 700;
   font-size: 14px;
   padding: 4px 16px;
@@ -99,7 +98,7 @@ input:focus {
   align-items: center;
 }
 
-.title-bg {
+.title_css {
   position: relative;
   width: 100%;
   background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
@@ -133,16 +132,16 @@ input:focus {
 }
 
 .title_p {
-    font-size: 16px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    color: #000;
+  font-size: 16px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #000;
 }
 
-.talktous {
+.talk_to_us {
   font-size: 12px;
   font-weight: 700;
   line-height: 14px;
@@ -223,11 +222,6 @@ input:focus {
   background-color: #fffef2;
 }
 
-/* .ourProducts h1 {
-  margin-left: 45%;
-  margin-bottom: 60px;
-  font-weight: bolder;
-} */
 
 .our_h3 {
   text-align: center;
@@ -264,8 +258,6 @@ input:focus {
 .opContainer {
   display: flex;
   flex-direction: column;
-  /* margin-left: 20%;
-  gap: 40px; */
 }
 
 .opRow {
@@ -280,11 +272,6 @@ input:focus {
   width: 350px;
 }
 
-/* .opLeft h4 {
-  margin-top: 40px;
-  font-weight: bold;
-  font-size: 30px;
-} */
 
 .opRight {
   display: flex;
@@ -355,6 +342,7 @@ input:focus {
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -393,8 +381,8 @@ input:focus {
 
 .getStartSection button {
   border: 1px solid #ee3425;
-  font-family: "PT Sans",sans-serif;
-  color: #fff!important;
+  font-family: "PT Sans", sans-serif;
+  color: #fff !important;
   background-color: #ee3425;
   border-radius: 4px;
   height: 35px;
@@ -444,9 +432,9 @@ input:focus {
 .laptopButtons button {
   width: 210px;
   height: 44px;
-  
+
   margin-top: -50px;
-  
+
   font-weight: 700;
   font-size: 13.5px;
   color: #000 !important;
@@ -487,19 +475,19 @@ input:focus {
 }
 
 #industriesServed h3 {
-    text-align: center;
-    font-size: 29px;
-    line-height: 1.2;
-    margin-top: 0;
-    margin-bottom: 1em;
-    display: block;
-    font-family: "Ubuntu", sans-serif;
-    color: black;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 29px;
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 1em;
+  display: block;
+  font-family: "Ubuntu", sans-serif;
+  color: black;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 
 .industriesImages {
@@ -516,12 +504,12 @@ input:focus {
 }
 
 .industriesImages p {
-    display: flex;
-    justify-content: center;
-    font-size: 16px;
-    font-weight: 700;
-    color: #000;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
 }
 
 .industriesImages img {
@@ -545,9 +533,9 @@ input:focus {
 }
 
 .gs2_image_div {
-    display: flex;
-    flex: 1 1;
-    justify-content: flex-end;
+  display: flex;
+  flex: 1 1;
+  justify-content: flex-end;
 }
 
 .gSContainer2 {
@@ -559,25 +547,27 @@ input:focus {
 }
 
 .gs2_image {
-    display: block;
-    margin-right: 285px;
-    object-fit: contain;
-    animation-name: styles_gs;
-    animation-duration: 4s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
+  display: block;
+  margin-right: 285px;
+  object-fit: contain;
+  animation-name: styles_gs;
+  animation-duration: 4s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
 }
 
 @keyframes styles_gs {
-0% {
-  transform: translateY(0);
-}
-50% {
-  transform: translateY(-10px);
-}
-100% {
-  transform: translateY(0);
-}
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .gSLeft {
@@ -620,20 +610,20 @@ input:focus {
 }
 
 .gSLeft2 button {
-    display: inline-block;
-    height: 40px;
-    padding: 8px 42px;
-    margin-top: 20px;
-    font-size: 14px;
-    height: 38px;
-    width: 159px;
-    font-weight: 700;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    background-color: red;
-    border-radius: 8px;
-    border: #fff;
+  display: inline-block;
+  height: 40px;
+  padding: 8px 42px;
+  margin-top: 20px;
+  font-size: 14px;
+  height: 38px;
+  width: 159px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 8px;
+  border: #fff;
 }
 
 .gSLeft button {
@@ -647,14 +637,6 @@ input:focus {
   font-weight: bold;
 }
 
-/* 
-.one_stop_image {
-    display: block;
-    width: 500px;
-    object-fit: contain;
-    height: 100%;
-    margin-right: 100px;
-} */
 
 .one_stop_image2 {
   width: 500px;
@@ -676,7 +658,7 @@ input:focus {
 
 
 /* <!-- stats section --> */
-.statsContainer {
+.Statistics_Container {
   margin-top: 70px;
   display: flex;
   justify-content: center;
@@ -685,7 +667,7 @@ input:focus {
   font-size: 20px;
 }
 
-.stats_h {
+.Statistics_h {
   font-size: 16px;
   margin-bottom: 0px;
   display: block;
@@ -698,7 +680,7 @@ input:focus {
   color: #000;
 }
 
-.stats_h1 {
+.Statistics_h1 {
   font-size: 16px;
   margin-bottom: 0px;
   display: block;
@@ -711,7 +693,7 @@ input:focus {
   color: #000;
 }
 
-.stats_h2 {
+.Statistics_h2 {
   font-size: 16px;
   margin-bottom: 0px;
   display: block;
@@ -724,7 +706,7 @@ input:focus {
   color: #000;
 }
 
-.stats_h3 {
+.Statistics_h3 {
   font-size: 16px;
   margin-bottom: 0px;
   display: block;
@@ -747,22 +729,13 @@ input:focus {
 /* <!-- stats section ends --> */
 
 
-
-
-/* video+blogs part */
-/* 
-.vidouter {
-  padding: 0;
-  margin: 0;
-} */
-
-.vidouter h3 {
+.video_outer h3 {
   font-size: 28px;
   line-height: 1.2;
   font-family: 'Ubuntu';
 }
 
-.vidouter h4 {
+.video_outer h4 {
   font-size: 16px;
   font-weight: 800;
   font-family: 'Ubuntu';
@@ -770,7 +743,7 @@ input:focus {
   margin-bottom: 0.25rem;
 }
 
-.vidouter {
+.video_outer {
   padding-top: 2rem;
   position: relative;
   height: 450px;
@@ -884,7 +857,7 @@ input:focus {
 
 #card_content {
   border: #fff;
-  box-shadow: 0 3px 6px hsla(0,0%,79%,.5);
+  box-shadow: 0 3px 6px hsla(0, 0%, 79%, .5);
 }
 
 .card-abt {
@@ -1080,7 +1053,7 @@ input:focus {
   border-radius: 1px solid red;
   outline: none;
   transition: color 0.1s linear, background-color 0.1s linear,
-  border-color 0.1s linear;
+    border-color 0.1s linear;
   transition-duration: 0.1s, 0.1s, 0.1s;
   transition-timing-function: linear, linear, linear;
   transition-delay: 0s, 0s, 0s;
